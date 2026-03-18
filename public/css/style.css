@@ -1,3 +1,19 @@
 body {
     text-align: center;
+    justify-content: center;
+    background-image: "https://as2.ftcdn.net/jpg/03/01/12/57/1000_F_301125741_jJDi4jjKZ0TroXlbmnlyLZd1b4ayqT4P.jpg";
+}
+
+nav {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#description {
+    border-radius: 20%;
 }

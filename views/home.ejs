@@ -47,31 +47,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/planetInfo?planet=Mars">Mars</a>
                     </li>
-                    <div class="nav-item dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown link
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" href="/planetInfo?planet=Venus">Venus</button></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Earth">Earth</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Mercury">Mercury</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Neptune">Neptune</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Neptune">Neptune</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Neptune">Neptune</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Neptune">Neptune</a></li>
-                            <li><a class="dropdown-item" href="/planetInfo?planet=Neptune">Neptune</a></li>
-                        </ul>
-                    </div>
                     <li class="nav-item">
                         <a class="nav-link" href="/nasa">NASA POD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/asteroid">Asteroid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/comet">Comet</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <img src="<%= imgUrl %>">
+    <div class="card p-4 col m-3">
+        <h2>Discover the solar system</h2>
+        <img src="<%= imgUrl %>">
+    </div>
+    <hr>
+    <footer>The solar system by Anthony Pietri</footer>
 
 </body>
 
